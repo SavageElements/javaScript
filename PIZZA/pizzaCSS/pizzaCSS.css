@@ -1,0 +1,124 @@
+body {
+    justify-content: space-between;
+}
+
+#menuBG {
+    width: 500px;
+    height: 1000px;
+    margin: 10px auto;
+    background-image: url(./PizzaBG.png);
+    background-color: black;
+    justify-content: center;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    color: brown;
+}
+
+h3 {
+    font-family: cursive;
+    color: brown;
+}
+
+#frmMenu {
+    display: block;
+    position: static;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: cursive;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 300px;
+    margin: 25px auto;
+    float: right;
+    margin-right: 25px;
+    justify-content: space-between;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: cursive;
+}
+
+#pSize {
+    position: relative;
+    width: 175px;
+    height: 200px;
+    margin-left: 160px;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: cursive;
+}
+
+
+.left {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-left: 25px;
+    justify-content: space-between;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: cursive;
+}
+
+.right {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    float: right;
+    margin-right: 25px;
+    justify-content: space-between;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: cursive;
+}
+
+#showText {
+    width: 200px;
+    height:300px;
+    margin: 25px auto;
+    float: left;
+    margin-left: 25px;
+    justify-content: space-between;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: cursive;
+}
+
+#cart {
+}
+
+#buttonWrap {
+    position: relative;
+    display: block;
+    align-content: center;
+    margin-left: 200px;
+    font-family: cursive;
+}
+
+#btnOrder {
+    position: relative;
+    align-self: center;
+    height: 40px;
+    border: 5px solid brown;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-family: cursive;
+}
