@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="eg">
+    <meta charset="utc-8">
+    <title>One Page Web Site</title>
+    <link rel="stylesheet" href="./1PWS-CSS/1PWS.css">
+    <main>
+
+    <nav>
+        <div class="NAViCON">
+            <ul class="NAVi">
+                <a href="#TOPSIDE"><li>TOPSIDE!</li></a>
+                <a href="#THE SAILS"><li>THE SAILS!</li></a>
+                <a href="#THE SEAS"><li>THE SEAS!</li></a>
+                <a href="#CREW"><li>CREW UP!</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        <!-- Title -->
+        <section id="TOPSIDE">
+            <div class="topbox">
+                <div class="TitleA">
+                    <div class="presents">
+                        <h3>Savage Elements presents</h3>
+                    </div>    
+                            <div class="mains">
+                                <h1>The Dark Tides</h1>
+
+                            </div>
+                    
+                </div>
+            </div>    
+        </section>
+        <!--end Title-->
+
+       
+        <!--Flags-->
+        <section id="THE SAILS">
+            <div class="Flagbox">
+                <div class="WhoSail">
+                    <h1>Choose</h1>
+                    <h2>The flag you sail under!</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                  <img src="./1PWS-CSS/IC.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="./1PWS-CSS/FLUER.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="./1PWS-CSS/SangraC.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="./1PWS-CSS/LastM.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="./1PWS-CSS/NoQ.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="./1PWS-CSS/Hours.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="./1PWS-CSS/CptLocke.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                  </div>
+                  <div class="column">
+                    <img src="./1PWS-CSS/HunterDmQ.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                  </div>
+              </div>
+                
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./1PWS-CSS/IC.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./1PWS-CSS/FLUER.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./1PWS-CSS/SangraC.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./1PWS-CSS/LastM.png" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <div class="numbertext">5 / 4</div>
+                    <img src="./1PWS-CSS/NoQ.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">6 / 4</div>
+                    <img src="./1PWS-CSS/Hours.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">7 / 4</div>
+                    <img src="./1PWS-CSS/CptLocke.png" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">8 / 4</div>
+                    <img src="./1PWS-CSS/HunterDmQ.png" style="width:100%">
+                  </div>
+              
+                  <!-- Next/previous controls -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                  <!-- Caption text -->
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+              
+                  <!-- Thumbnail image controls -->
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/IC.png" onclick="currentSlide(1)" alt="The Steadfast Iron Crowns">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/FLUER.png" onclick="currentSlide(2)" alt="The honerable Fluer du Noir">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/SangraC.png" onclick="currentSlide(3)" alt="The richeous Sangra de la Crux">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/LastM.png" onclick="currentSlide(4)" alt="The reapers known as the Last Moments">
+                  </div>
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/NoQ.png" onclick="currentSlide(1)" alt="The Dreaded No Quarter">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/Hours.png" onclick="currentSlide(2)" alt="The Unsinkable crew of the Last Hours">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/CptLocke.png" onclick="currentSlide(3)" alt="The Feared Captain Locke">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./1PWS-CSS/HunterDmQ.png" onclick="currentSlide(4)" alt="The Insatiable Marquis DeMonz">
+                  </div>
+                </div>
+              </div>
+        </section>
+
+         <!--The Map-->
+         <section id="THE SEAS">
+            <div class="mapbox">
+                <img src="./1PWS-CSS/Anchor.png" alt="Tole Mare">
+                <div class="Brave">
+                    <h2> Can you brave
+                        <br> the rolling deep terror?</h2>
+                </div>
+            </div>
+        </section>    
+        <!--end MAP-->
+
+                    <!---CREW-->
+                        <section id="CREW">
+                            <div class="container">
+                                <div class="StartAD">
+                                    <h1 class="StartAD">Start your adventure!</h1>
+                                    <div class="destiny">
+                                        <h2><span>Choose your crew</span>
+                                            <br />Choose your DESTINY!
+                                        </h2>
+                                        <p class="HOUSE">
+                                            Sign The ships log, and be on your way matey!
+                                        </p>
+                                        <form>
+                                                <input class="form" type ="text" value="" placeholder="Name">
+                                                <input class="form" type ="text" value="" placeholder="Banner of Aliegence">
+                                                <input class="form" type ="text" value="" placeholder="Primary Element">
+                                                <input class="form" type ="text" value="" placeholder="Defensive Element">
+                                                <div class="begin">
+                                                    <input type="submit" value="BEGIN!">
+                                                </div>
+                                            
+                                            </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--END crew!-->
+                    <!--Footer-->
+        <footer>
+            <div class="footbox">
+              <p><span class="copy">THE SAVAGE ELEMENTS &#169</span>All rights reserved MMXXII</p>
+            </div>
+        </footer>
+        <!--end Footer--> 
+          
+        <script src="./JS/1PWS_JS.js"></script>
+    </body>
+</main>
+</html>
