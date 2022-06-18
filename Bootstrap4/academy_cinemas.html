@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+<!--Poppers if needed-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+    </body bg-dark>
+        <div class="full-site .bg-warning">
+<!--NAV-->
+            <nav class="navbar navbar-expand-lg bg-secondary border border-warning" id="NAV">
+                <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand text-warning" style="--bs-text-opacity: .75;" href="#NAV">The Savage Elements</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" style="--bs-text-opacity: .5;" aria-current="page" href="#WELC">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" style="--bs-text-opacity: .5;" href="#VINE">The Vineyard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" style="--bs-text-opacity: .5;" href="#PEEPS">The People</a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                    </form>
+                </div>
+                </div>
+            </nav>
+
+
+<!--Flex Container-->
+                <div class="container-md bg-dark" id="WELC">
+                    <h1 class="display-2 text-warning" style="--bs-text-opacity: .5;">Welcome to</h1>
+                    <img src="./Bootstrap_assets/VIN.png" class="img-fluid" alt="Vinvald">
+                </div>
+            </div>
+
+
+<!--First Columns-->
+            <div id="VINE" class="container bg-dark text-center" style="--bs-bg-opacity: .1;">
+                <div class="row">
+                <div class="col align-self-start">
+                    <h3 class="text-dark" style="--bs-text-opacity: .4;">The places</h3>
+                    <img src="./Bootstrap_assets/Vinefog.png" class="img-fluid" alt="The Vineyard">
+                    <h4 class="text-dark position-bottom" style="--bs-text-opacity: .4;">you will see.</h4>
+                </div>
+                <div class="col align-self-center">
+                    <h3 class="text-dark mb-5" style="--bs-text-opacity: .4;">The people</h3>
+                        <div class="list-group>
+                            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                                
+                            </a>
+                            <a href="#PEEPS1" class="list-group-item list-group-item-action bg-dark text-warning" style="--bs-text-opacity: .4;">Lady Laissa Visconce</a>
+                            <a href="#PEEPS2" class="list-group-item list-group-item-action bg-dark text-warning" style="--bs-text-opacity: .4;">Orzo Il'Graves</a>
+                            <a href="#PEEPS3" class="list-group-item list-group-item-action bg-dark text-warning" style="--bs-text-opacity: .4;">Willik De'Monz</a>
+                        </div>
+                    <h4 class="text-dark text-bottom mt-5" style="--bs-text-opacity: .4;">you will meet.</h4>
+                </div>
+                <div class="col align-self-end">
+                    <h3 class="text-dark" style="--bs-text-opacity: .4;">The things...</h3>
+                    <img src="./Bootstrap_assets/ShadowA.png" class="img-fluid" alt="The things">
+                    <h4 class="text-warning text-bottom text-right" style="--bs-text-opacity: .01;">...</h4>
+                </div>
+                </div>
+            </div>
+
+
+<!--Second Collumns-->
+            <div class="container bg-dark text-center" style="--bs-bg-opacity .8" id="PEEPS">
+                <div class="row">
+                <div class="col align-self-start" id="PEEPS1">
+                    <h3 class="text-warning" style="--bs-text-opacity: .2;">The Lady of the mannor</h3>
+                    <img src="./Bootstrap_assets/LADY L.png" class="img-fluid" alt="The Vineyard">
+                    <h4 class="text-warning position-bottom" style="--bs-text-opacity: .4;">Lady Laissa Visconce</h4>
+                </div>
+                <div class="col align-self-center" id="PEEPS2">
+                    <h3 class="text-warning" style="--bs-text-opacity: .2;">The Winemaker</h3>
+                    <img src="./Bootstrap_assets/ORZO.png" class="img-fluid" alt="The Vineyard">
+                    <h4 class="text-warning position-bottom" style="--bs-text-opacity: .4;">Orzo Il'Graves</h4>
+                </div>
+                <div class="col align-self-end" id="PEEPS3">
+                    <h3 class="text-warning" style="--bs-text-opacity: .2;">The Groundsman</h3>
+                    <img src="./Bootstrap_assets/Willik.png" class="img-fluid" alt="The Vineyard">
+                    <h4 class="text-warning position-bottom" style="--bs-text-opacity: .4;">Willik De'Monz</h4>
+                </div>
+                </div>
+            </div>
+
+
+<!--form-->
+            <form>
+                <div class="mb-3 bg-secondary mt-5">
+                    <h1 class="text-warning text-center my-5" style="--bs-text-opacity: .6"> We will see you for a "tasting" soon!</h1>
+                <label for="exampleInputEmail1 bg-warning" style="--bs-bg-opacity .8" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+               
+                <button type="submit bg-warning" class="btn btn-warning" style="--bs-bg-opacity .5">Submit</button>
+            </form>
+
+
+<!--Footer-->
+
+            <ul class="nav justify-content-center bg-dark text-warning" style="--bs-text-opacity: .4">
+                <li class="nav-item">
+                <a class="nav-link text-warning" style="--bs-text-opacity: .4" href="#">The Elements</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-warning" style="--bs-text-opacity: .8" href="#">THE SAVAGE ELEMENTS &#169</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-warning" style="--bs-text-opacity: .4" href="#">Where is Vinvald?</a>
+                </li>
+            </ul>
+
+        </div>
+</html>
