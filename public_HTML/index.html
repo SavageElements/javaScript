@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./indexCSS/main.css">
+    <link rel="" href="">
+</head>
+
+<body>
+<!--NAVBOX-->
+<nav>
+    <div>
+      
+            <div class="NAViCON Navbar">
+                <div class="sig">
+                    <img id="sig" src="./indexCSS/Sig.png" alt="J Rockwell Seebach"> 
+                </div>
+                
+                <div class="menu">
+                <ul class="NAVi">
+                    <a href="#TOP"><li>TOP</li></a>
+                    <a href="#CODING"><li>CODING</li></a>
+                    <a href="#INFO"><li>ABOUT</li></a>
+                    <a  onclick="openForm()" ondblclick="closeform()" class="contact" href="#CONTACT"><li>CONTACT</li></a>
+                </ul>
+                </div>
+            </div>        
+    </div>
+</nav>
+
+<div id="TOP">
+    <video autoplay muted loop id="DiceVid">
+        <source src="indexCSS/Dice.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="Video_Text">
+    <h1 class="white-text">Game Design Philosophy</h1>
+    <strong>
+        <p class="center quote PA">
+            <q>The scenes and dialog that get rushed through with
+                    <br>     a few mashes of an “X” button are not story,
+                    <br>                             they are exposition.
+                    <br>
+                    <br>    Real story is achieved through active gaming.
+            </q>
+        </p>
+    </strong>
+</div>
+
+<div id="blackground">
+    <div id="slideshow">
+        <div id="CODING"></div>
+        <div id="Slideshow_Background">
+            <div id="Slideshow_Container">
+
+                <div class="mySlides fade" style="display: none;">
+                    <img class="Slideshow_Images" src="./indexCSS/Image1.jpg">
+                    <div class="text">Narrative designer with over a decade of experience 
+                        <br>in professional Story Analysis 
+                        <br> and character development.
+                    </div>
+                </div>
+     
+                <div class="mySlides fade" style="display: none;">
+                    <img class="Slideshow_Images" src="./indexCSS/Image2.png"> 
+                    <div class="text">C# and Unity experience</div>
+                </div>
+
+                <div class="mySlides fade" style="display: none;">
+                    <img class="Slideshow_Images" src="./indexCSS/Image3.png">
+                    <div class="text">C++ and Unreal5 experience</div>
+                </div>
+
+                <div class="mySlides fade" style="display: none;">
+                    <img class="Slideshow_Images" src="./indexCSS/Image4.png">
+                    <div class="text">Front-end design experience
+                            <br>In HTML, CSS and JavaScript
+                    </div>
+                </div>
+                <!-- Slide 5 of 6 -->
+                <div class="mySlides fade" style="display: none;">
+                    <img class="Slideshow_Images" src="./Image5.png"> 
+                    <div class="text">back-end development, databases and SQL.</div>
+                </div>
+                <!-- Slide 6 of 6 -->
+                <div class="mySlides fade" style="display: block;">
+                    <img class="Slideshow_Images" src="./indexCSS/Image6.jpg"> 
+                    <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div> 
+                </div>
+                <!-- Previous and next buttons -->
+                <a class="Previous" onclick="plusSlides(-1)">❮</a>
+                <a class="Next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+            <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot active" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="Row1" id="About">
+        <div class="Box1">
+            <div class="imageWrap">
+                <img src="./indexCSS/Vinvald.png" alt="Vinvald">
+            </div>
+        </div>
+        <div class="Box2">
+            <div class="B2Header">
+                <h1>EXPERIENCE</h1>
+            </div>
+            <div id="INFO" class="bullets">
+                <p class="PB">My narrative background is bolstered by over a decade 
+                    <br>of experience as a story analyst in the film industry. 
+                    <br>
+                    Now with full-stack development experience from <a href=https://www.learncodinganywhere.com/ target =“blank”>The Tech Academy</a> 
+                    <br>I am looking to combine these skillsets to tell new 
+                    <br>interactive stories. 
+                    <br>
+                    <br>
+                    There is passive gaming, 
+                    <br>and then there is what is coming next.
+                </p>
+                <br>
+                <h3>SKILLS BEHIND THE PEN</h3>
+                    <p class="PB">Nartrative Design, Story Analysis, Character Design & Development,
+                        <br>Pre-production, Budgeting, Crew Management.
+                <br>
+                <h3>SKILLS BEHIND THE KEYS</h3>
+                    <p class="PB">C#/Unity, C++/Unreal5, Python, HTML, CSS, JavaScript SQL and more.
+                        <br>Photoshop, Blender, Adobe AE & PR.
+                    <br>
+                <h3>SKILLS BEHIND THE LENS</h3>
+                    <p class="PB">Storyboarding, Camera & Lighting, Full Pre & Post Production Pipelines.
+            </div>
+        </div>
+    </div>
+ 
+    <br>
+
+    <div class="Row2">
+        <div class="SK">
+            <div class="SKoff">
+                <img src="./indexCSS/SKoff.png" alt="StoneKittyOFF">
+            </div>
+            <div class="SKon">
+                <img src="./indexCSS/SKon.png" alt="StoneKittyON">
+            </div>
+            <div class="GIT">
+                <h1 class="GITa"><a href="https://github.com/" target="_self">M Y   G I T   H U B</a></h1>
+                <h4 class="peek">Take a peek behind the digital curtain!</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button">Contact</button>
+        <div class="form-popup" id="myForm" ondblclick="closeForm()" style="display: none;">
+            <form action="https://formspree.io/f/mpzbbdyq" method="POST" class="form-container">
+                <h1>Contact</h1>
+                <label for="name">
+                    <b>Name</b>
+                </label>
+                <input type="text" placeholder="Type your name here" name="name" required="">
+                <label for="phone">
+                    <b>Phone</b>
+                </label>
+                <input type="text" placeholder="Type your phone number here" name="phone">
+                <label for="email">
+                    <b>Email</b>
+                </label>
+                <input type="text" placeholder="Type your email address here" name="email" required="">
+                <label for="message">
+                    <b>Message</b>
+                </label>
+                <input type="text" placeholder="Type your message here" name="message">
+                <button type="submit" class="btn">SUBMIT</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+            </form>
+        </div>
+    </div>
+</div>
+<footer>
+    <p class="center PA">The Savage Elements&#169 / J. Rockwell Seebach</p>
+    <br>
+</footer>
+
+    <script src="./JS/indexJS.js"></script>
+</body>
+</html>
